@@ -2,7 +2,7 @@
 
 table! {
     users (id) {
-        id -> Uuid,
+        id -> i32,
         username -> Varchar,
         email -> Varchar,
         password -> Varchar,
