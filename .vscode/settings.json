@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
-        "actix"
+        "actix",
+        "dotenv",
+        "dotenvy"
     ]
 }
