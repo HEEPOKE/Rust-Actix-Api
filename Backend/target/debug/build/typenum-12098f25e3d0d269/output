@@ -1,3 +1,0 @@
-cargo:rerun-if-changed=build/main.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/pornpitak.a/Documents/GitHub/Rust-Actix-Api/Backend/target/debug/build/typenum-12098f25e3d0d269/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/pornpitak.a/Documents/GitHub/Rust-Actix-Api/Backend/target/debug/build/typenum-12098f25e3d0d269/out/op.rs
