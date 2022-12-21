@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_USER: yoyo
       POSTGRES_PASSWORD: 5555
-      POSTGRES_DB: prisma
+      POSTGRES_DB: rust
     networks:
       - freecodecamp
 networks:
