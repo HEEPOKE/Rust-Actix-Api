@@ -1,4 +1,5 @@
 
 Backend/.env
 Backend/mifrations
+Backend/target/*
 *.sql
