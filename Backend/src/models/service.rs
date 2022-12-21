@@ -1,2 +1,2 @@
 // use crate::user;
-use super::user;
+use super::models::{UserModel, ProductModel};
