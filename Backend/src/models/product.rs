@@ -1,7 +1,7 @@
 use diesel::prelude::*;
 
 #[derive(Queryable)]
-pub struct User {
+pub struct Product {
     pub id: i64,
     pub name: String,
     pub detail: String,
