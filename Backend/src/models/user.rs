@@ -1,9 +1,12 @@
 use diesel::prelude::*;
+use crate::schema::*;
 
-#[derive(Queryable)]
+#[derive(Insertable, Debug)]
+#[table_name = "users"]
 pub struct UserModel {
-    pub id: i64,
+    pub id: i32,
     pub username: String,
     pub email: String,
     pub password: String,
+    pub created_at: Timestamp,
 }

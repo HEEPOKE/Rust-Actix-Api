@@ -3,9 +3,7 @@ use diesel::prelude::*;
 use dotenvy::dotenv;
 use std::env;
 
-use crate::models::user:: {
-    UserModel::userModel
-};
+use super::models::user::{UserModel};
 
 pub fn establish_connection() -> PgConnection {
     dotenv().ok();
