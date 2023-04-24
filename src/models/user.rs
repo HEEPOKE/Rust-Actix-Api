@@ -1,13 +1,14 @@
+use crate::schema::users;
 use diesel::prelude::*;
+use chrono::NaiveDateTime;
  
 #[derive(Queryable, Selectable)]
-#[diesel(table_name = crate::schema::users)]
-#[diesel(check_for_backend(diesel::pg::Pg))]
+#[diesel(table_name = users)]
 pub struct User {
     pub id: i32,
     pub username: String,
     pub email: String,
     pub password: String,
-    pub created_at: Timestamp,
-    pub updated_at: Timestamp,
+    pub created_at: NaiveDateTime,
+    pub updated_at: NaiveDateTime,
 }
