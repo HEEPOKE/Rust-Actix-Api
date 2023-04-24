@@ -27,3 +27,21 @@ pub struct NewUser<'a> {
     pub tel: &'a str,
     pub role: Role,
 }
+
+impl User {
+    pub fn create<'a>(
+        username: &'a str,
+        email: &'a str,
+        password: &'a str,
+        tel: &'a str,
+        role: Role,
+    ) -> NewUser<'a> {
+        NewUser {
+            username,
+            email,
+            password,
+            tel,
+            role,
+        }
+    }
+}
