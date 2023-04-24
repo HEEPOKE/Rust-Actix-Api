@@ -1,6 +1,6 @@
 
 .env
-mifrations
+migrations
 target/*
 *.sql
 Cargo.lock
