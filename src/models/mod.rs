@@ -1,7 +1,6 @@
-extern crate dotenv;
 use diesel::prelude::*;
 use diesel::pg::PgConnection;
-use dotenv::dotenv;
+use dotenvy::dotenv;
 use std::env;
 pub mod user;
 
