@@ -3,3 +3,4 @@
 mifrations
 target/*
 *.sql
+Cargo.lock
