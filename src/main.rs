@@ -1,6 +1,6 @@
 mod config;
 // mod controllers;
-// mod models;
+mod models;
 // mod routes;
 mod schema;
 
